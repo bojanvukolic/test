@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    letter-spacing: 4px;
+    text-decoration: underline;
+    padding: 10px;
+}
+p{
+    font-size: 18px;
+    line-height: 30px;
+    color:white;
+}
+p,h1,h2,h3,h4,h5,h6,li{
+    margin: 1em;
+}
+.main{
+    display: flex;
+    justify-content:space-between ;
+}
+
+.levi{
+    flex-basis: 10%;
+    background-color: darkred;
+    border-right: solid darkblue 2px;
+    height: 250px;
+}   
+.desni{
+    flex-basis: 85%;
+    padding: 1em;
+    background-color: rgb(122, 64, 64);
+}
+
+ul{
+    
+    list-style: none;
+    width: 100%;
+}
+ul li {
+   padding: 2px;
+}
+
+
+
+
+ul li a{
+    color: white;
+    font-size: 1.2em;
+    display: block;
+    padding:5px;
+    text-align: center;
+    text-decoration: none;
+}
+ul li a:hover{
+    border-bottom: solid white 2px;
+    transition: 0.1s;
+}
+.active{
+    border-bottom: solid white 2px;
+}
+
+th,td{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    
+    
+    padding: 1em;
+}
+table,th,tr,td{
+    border-collapse: collapse;
+    border:solid black thin;
+}
+tr:nth-child(odd) 
+{
+    background-color: gray
+    ;
+}
+
+tr:nth-child(even) td
+{
+    background-color: lightskyblue
+    ;
+}
+
+thead tr th{background-color: mediumblue;}
